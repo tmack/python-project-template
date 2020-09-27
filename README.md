@@ -10,7 +10,7 @@ $ pip install -r requirements.txt
 Create the json file 'test-local.settings.json', this is a place to put project settings you'd like to use. Each key/value pair is set as environmental variable during run time.
 ```json
 {
-"env_variable_name" : "env_variable_value'"
+"env_variable_name" : "env_variable_value"
 }
 ```
 
