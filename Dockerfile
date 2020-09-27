@@ -11,4 +11,4 @@ RUN pip install -r requirements.txt
 # Bundle app source
 COPY main.py /app
 
-CMD [ "python", "get_hello_world.py" ]
+CMD [ "python", "main.py" ]
