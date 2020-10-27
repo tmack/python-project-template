@@ -38,7 +38,7 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         push: true
-        tags: temack/image-processing:2020-09-24
+        tags: REPO_URL:TAG
         file: ./Dockerfile
 
     - name: Image digest
