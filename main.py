@@ -10,4 +10,4 @@ def test_settings_exists(test_config_path='./test-local.settings.json'):
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.INFO)
-    get_hello_world()
+    test_settings_exists()
