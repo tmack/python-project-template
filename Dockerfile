@@ -9,6 +9,6 @@ COPY requirements.txt ./
 RUN pip install -r requirements.txt
 
 # Bundle app source
-COPY main.py /app
+COPY . /app
 
 CMD [ "python", "main.py" ]
