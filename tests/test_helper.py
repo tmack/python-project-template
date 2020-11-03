@@ -16,8 +16,9 @@ def setup_test_local_settings(testing_settings_path='test-local.settings.json'):
 
 def ask_user_to_generate_test_file(testing_settings_path):
     generate_test_settings_command = '$ echo {} > ' + testing_settings_path
-    logging.warn(f'The testing settings file don\'t exist at f{testing_settings_path}. '
-                  f'Run the following command to generate the file:\n {generate_test_settings_command}')
+    logging.warning(f'The testing settings file don\'t exist at f{testing_settings_path}. '
+                    f'Run the following command to generate the file:\n {generate_test_settings_command}')
+
 
 def lists_are_equal(list_1, list_2):
     return len(list_1) == len(list_2) and sorted(list_1) == sorted(list_2)
