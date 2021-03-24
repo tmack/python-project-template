@@ -3,7 +3,7 @@ from tests.test_helper import setup_test_local_settings
 from main import test_settings_exists
 
 
-class TestGetTextFromImage(unittest.TestCase):
+class TestExample(unittest.TestCase):
 
     def setUp(self):
         setup_test_local_settings()
