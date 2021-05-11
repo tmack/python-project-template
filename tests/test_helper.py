@@ -16,7 +16,7 @@ def setup_test_local_settings(testing_settings_path='test-local.settings.json'):
 
 def ask_user_to_generate_test_file(testing_settings_path):
     generate_test_settings_command = '$ echo {} > ' + testing_settings_path
-    logging.warning(f'The testing settings file don\'t exist at f{testing_settings_path}. '
+    logging.warning(f'The testing settings file don\'t exist at {testing_settings_path}. '
                     f'Run the following command to generate the file:\n {generate_test_settings_command}')
 
 
